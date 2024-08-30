@@ -1,0 +1,68 @@
+/* 设置全局样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* 标题样式 */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* 中文释义样式 */
+#chinese-meaning {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* 输入框样式 */
+input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: skyblue;
+    box-shadow: 0 0 10px rgba(135, 206, 235, 0.5);
+    outline: none;
+}
+
+/* 按钮样式 */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #5DADE2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3498DB;
+}
+
+/* 反馈信息样式 */
+#feedback {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
